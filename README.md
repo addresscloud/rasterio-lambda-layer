@@ -4,7 +4,7 @@
 
 > RasterIO Python Module as AWS Lambda Layer
 
-This Docker script packages rasterio for use as an AWS Lambda layer. Upload the zip file to an S3 bucket to create a layer. Builds on [this work](https://blog.mapbox.com/aws-lambda-python-magic-e0f6a407ffc6?gi=b5c72b8b25f6) by Vincent Sarago at Mapbox.
+Upload the zip file to an S3 bucket to create a layer (see [Usage](#usage)). You can optionally use the Docker script to build the package from scratch.  Extends [this work](https://blog.mapbox.com/aws-lambda-python-magic-e0f6a407ffc6?gi=b5c72b8b25f6) by Vincent Sarago at Mapbox.
 
 ## Table of Contents
 
