@@ -8,7 +8,6 @@ This Docker script packages rasterio for use as an AWS Lambda layer. Upload the 
 
 ## Table of Contents
 
-- [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainers](#maintainers)
