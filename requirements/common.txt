@@ -1,0 +1,2 @@
+rasterio[s3]==1.0.18
+git+ssh://git@github.com/addresscloud/addresscloud-libutil-py.git#egg=libutil
