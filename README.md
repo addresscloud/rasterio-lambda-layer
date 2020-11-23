@@ -6,7 +6,7 @@
 
 Upload the `build/package_rio.zip` file to an S3 bucket to create a layer (see [Usage](#usage)). You can optionally use the Docker script to build the package from scratch.  Extends [this work](https://blog.mapbox.com/aws-lambda-python-magic-e0f6a407ffc6?gi=b5c72b8b25f6) by Vincent Sarago at Mapbox.
 
-Currently build is for Python 3.6 with RasterIO 1.0.18.
+Currently build is for Python 3.8 with RasterIO 1.1.8.
 
 ## Table of Contents
 

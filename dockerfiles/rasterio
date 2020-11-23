@@ -2,7 +2,7 @@
 
 # Adapted from https://github.com/mapbox/aws-lambda-python-packages
 
-FROM lambda:python3.6 as intermediate
+FROM lambda:python3.8 as intermediate
 
 # Rasterio
 RUN pip3 install rasterio[s3] --no-binary numpy --pre rasterio -t /tmp/vendored -U
@@ -14,7 +14,7 @@ COPY requirements/common.txt /common.txt
 # Install with docker ssh support and ignore cache.
 RUN --mount=type=ssh pip3 --no-cache-dir install -r /common.txt -t /tmp/vendored -U
 
-FROM lambda:python3.6
+FROM lambda:python3.8
 
 COPY --from=intermediate /tmp/vendored /tmp/vendored
 
